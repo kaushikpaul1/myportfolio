@@ -11,6 +11,17 @@ h1
     font-family: 'Dancing Script', cursive;
 
 }
+h3
+{
+    font-family: 'Dancing Script', cursive;
+
+}
+.txt
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+
+}
 .carousel-item img
 {
     width: 100%;
@@ -23,4 +34,16 @@ h1
 {
    min-width: 50%; 
    max-height: 200px;
+}
+.cust_img
+{
+width: 400px;
+}
+.cust_img1 img
+{
+    width: 40px;
+}
+.abc
+{
+    display: inline-block;
 }
