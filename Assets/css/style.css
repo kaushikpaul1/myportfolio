@@ -1,27 +1,29 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
-h1
-{
+
+h1 {
     font-family: 'Dancing Script', cursive;
 
 }
-h3
-{
+
+h3 {
     font-family: 'Dancing Script', cursive;
 
 }
-.txt
-{
+
+.txt {
     font-family: 'Dancing Script', cursive;
     font-size: 35px;
 
 }
+
 .carousel-item img
 {
     width: 100%;
@@ -30,16 +32,33 @@ h3
 /* .navbar{
     color: red !important;
 } */
-.card-body img
-{
-   min-width: 50%; 
-   max-height: 200px;
+.card-body img {
+    min-width: 50%;
+    max-height: 200px;
 }
-.cust_img
-{
-width: 400px;
+
+.cust_img {
+    width: 400px;
 }
-.cust_img1 img
-{
+
+.cust_img1 img {
     width: 40px;
 }
+
+
+/* @media (max-width:400px) {
+    .carousel-item img {
+
+        width: 50%;
+        height: 80vh;
+    }
+
+} */
+/* @media screen and (max-width:600px) {
+    .carousel-item img {
+
+        width: 100%;
+        height: 80vh;
+    }
+
+} */
